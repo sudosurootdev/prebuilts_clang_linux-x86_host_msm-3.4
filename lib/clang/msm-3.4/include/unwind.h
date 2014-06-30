@@ -68,8 +68,8 @@ extern "C" {
 
 typedef uintptr_t _Unwind_Word;
 typedef intptr_t _Unwind_Sword;
-typedef uintptr_t _Unwind_Ptr;
-typedef uintptr_t _Unwind_Internal_Ptr;
+typedef uintptr_t* _Unwind_Ptr;
+typedef uintptr_t* _Unwind_Internal_Ptr;
 typedef uint64_t _Unwind_Exception_Class;
 
 typedef intptr_t _sleb128_t;
